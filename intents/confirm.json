@@ -1,0 +1,79 @@
+{
+  "id": "09f77b81-c7bc-4799-bca9-7d113781faf8",
+  "name": "confirm",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "confirm-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538585610,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "80880e35-5444-4c4d-96c3-fe537970ba5e",
+      "data": [
+        {
+          "text": "is my registration confirmed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538585610,
+      "isAuto": false
+    },
+    {
+      "id": "e805c835-e42e-457d-9724-d359b7d6374d",
+      "data": [
+        {
+          "text": "check my confirmation status"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538585610,
+      "isAuto": false
+    },
+    {
+      "id": "a6855eb8-3468-49b7-a995-ac04f00d4692",
+      "data": [
+        {
+          "text": "show confirm"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1537986878,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

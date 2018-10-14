@@ -1,0 +1,247 @@
+{
+  "id": "5891fabb-c14e-42de-9fe3-3533df2a1209",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hi! How are you doing?",
+            "Hello! How can I help you?",
+            "Good day! What can I do for you today?",
+            "Greetings! How can I assist?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1539111627,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "31c95262-adef-4549-884c-7813835e5e4e",
+      "data": [
+        {
+          "text": "do something else"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1539111627,
+      "isAuto": false
+    },
+    {
+      "id": "4d97f19f-67c2-4caa-a8c1-66d6a2df1d79",
+      "data": [
+        {
+          "text": "just going to say hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "dd3b6ce8-79a9-49b6-b6ce-bd8aed0b8c67",
+      "data": [
+        {
+          "text": "heya"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9257b499-d251-4a2e-8917-f3f8d1702bef",
+      "data": [
+        {
+          "text": "hello hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "146118bf-9d19-4da6-a2db-3d2c37329de5",
+      "data": [
+        {
+          "text": "howdy"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "367231b0-3e42-4031-a9e7-73973f27873b",
+      "data": [
+        {
+          "text": "hey there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c3b66933-0519-40b4-922d-68a6cf3cf99b",
+      "data": [
+        {
+          "text": "hi there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7f646c08-d444-46e8-9246-37aa3649f472",
+      "data": [
+        {
+          "text": "greetings"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d1628196-c8a6-49e2-a32a-f49f52585804",
+      "data": [
+        {
+          "text": "hey"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "be7f545d-2ec7-443d-afa0-c45103035bfc",
+      "data": [
+        {
+          "text": "long time no see"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c71f288b-e1ce-405b-87a9-bbf07a4777eb",
+      "data": [
+        {
+          "text": "hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3fb57043-9a45-4c98-9b93-bd1b200bf7b6",
+      "data": [
+        {
+          "text": "lovely day isn't it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1b6755f9-3d88-494c-b2ee-b139593c2522",
+      "data": [
+        {
+          "text": "I greet you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5172059b-2750-4720-b826-b7fb071b1a31",
+      "data": [
+        {
+          "text": "hello again"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c22a7fe7-3a49-4592-a7a9-9d3e92e4e8ff",
+      "data": [
+        {
+          "text": "hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b8274911-afc0-4bc0-9490-923bc8f9dd7c",
+      "data": [
+        {
+          "text": "hello there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "39891c1a-da41-486c-a133-5b3727c1f558",
+      "data": [
+        {
+          "text": "a good day"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

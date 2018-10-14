@@ -1,0 +1,73 @@
+{
+  "id": "e95ff7e4-bc33-4c69-b1da-f0f8bfd2459e",
+  "name": "RV",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1539367920,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "7463c019-38f6-4b0e-aff2-29f474c57377",
+      "data": [
+        {
+          "text": "rivu chakabotry"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1539367920,
+      "isAuto": false
+    },
+    {
+      "id": "5dafd768-3558-4b8a-a6f6-c6244ec2a732",
+      "data": [
+        {
+          "text": "who is rivu chakabotry"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1539367920,
+      "isAuto": false
+    },
+    {
+      "id": "b6aecf7f-21c3-43ef-bcc1-c72c5716f900",
+      "data": [
+        {
+          "text": "about rivu chakabotry"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1539367920,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

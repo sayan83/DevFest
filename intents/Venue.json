@@ -1,0 +1,97 @@
+{
+  "id": "2e9504f7-f4ae-42e8-84da-16f5ac476332",
+  "name": "Venue",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1539111049,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "1a632ed3-78b2-4506-b38a-6b691c6c7962",
+      "data": [
+        {
+          "text": "where should i go"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1539111049,
+      "isAuto": false
+    },
+    {
+      "id": "d713517f-5068-4d4a-91f7-6468f2628a3c",
+      "data": [
+        {
+          "text": "where is it happening"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1539111049,
+      "isAuto": false
+    },
+    {
+      "id": "21f1b4cd-3aa8-4a70-81b8-0f41bf56822b",
+      "data": [
+        {
+          "text": "where is it going to happen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1539111049,
+      "isAuto": false
+    },
+    {
+      "id": "68ad868b-24f2-4c5d-ae7f-42bf04de2637",
+      "data": [
+        {
+          "text": "What's the venue"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1539111049,
+      "isAuto": false
+    },
+    {
+      "id": "0a0bfb11-006d-4ad7-9282-287109901fd0",
+      "data": [
+        {
+          "text": "Venue"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1539111049,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

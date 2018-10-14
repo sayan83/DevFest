@@ -1,0 +1,97 @@
+{
+  "id": "37a4865b-ae5d-4d82-91fc-a86d771cfdb5",
+  "name": "agenda",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1539376755,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "14c9665d-ef44-408d-b981-a24816d49427",
+      "data": [
+        {
+          "text": "can u show me the agenda"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1539376755,
+      "isAuto": false
+    },
+    {
+      "id": "477da8ca-eb6c-474a-88be-ee65cdf2a17d",
+      "data": [
+        {
+          "text": "whats the agenda"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1539376755,
+      "isAuto": false
+    },
+    {
+      "id": "d865a703-b149-4bd8-8ae1-63a7961a89be",
+      "data": [
+        {
+          "text": "tell me about agenda"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1539376755,
+      "isAuto": false
+    },
+    {
+      "id": "add50eef-7328-4bba-9fea-e602065b3f17",
+      "data": [
+        {
+          "text": "show me the agenda"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1539376755,
+      "isAuto": false
+    },
+    {
+      "id": "918b3eed-5fc9-4ed3-a1b9-a84478ffc5fb",
+      "data": [
+        {
+          "text": "agenda"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1539376755,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

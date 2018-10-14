@@ -1,0 +1,91 @@
+{
+  "id": "0ecf8e81-eef0-45e8-943b-e148732b8977",
+  "name": "MB",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8401b9e1-204b-4829-8ae2-99b20baf76d8",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1539367984,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "3180e55a-2049-4ce6-b3ec-84ffd1ecf10e",
+      "data": [
+        {
+          "text": "manisha biswas"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1539367984,
+      "isAuto": false
+    },
+    {
+      "id": "d4740300-0329-4cac-992f-6fabc9d9bc1c",
+      "data": [
+        {
+          "text": "about manisha biswas"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1539367984,
+      "isAuto": false
+    },
+    {
+      "id": "2e42bef9-b6db-44e5-aa9e-a163c4791d6c",
+      "data": [
+        {
+          "text": "who is "
+        },
+        {
+          "text": "manisha",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        },
+        {
+          "text": " biswas"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1539367984,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

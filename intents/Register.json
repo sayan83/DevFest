@@ -1,0 +1,49 @@
+{
+  "id": "c217978d-b62f-4600-974a-ec980a045937",
+  "name": "Register",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537814338,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "7f50b926-542e-424d-bfdb-431b57302e41",
+      "data": [
+        {
+          "text": "Register now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1537814338,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

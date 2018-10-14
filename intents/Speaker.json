@@ -1,0 +1,49 @@
+{
+  "id": "8d0fb85d-2b21-4223-954f-61b3e851e0e3",
+  "name": "Speaker",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537814446,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "549f0c38-dff7-41b3-8789-bf785bde4fb4",
+      "data": [
+        {
+          "text": "register as speaker"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1537814383,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

@@ -1,0 +1,79 @@
+{
+  "id": "6b5ca882-ae3e-4814-8251-f868bb2bf1af",
+  "name": "organizer",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "organizer-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538848864,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "dabeaa9f-5393-495c-ae39-5e4b3a3f7384",
+      "data": [
+        {
+          "text": "show all organizers"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538848864,
+      "isAuto": false
+    },
+    {
+      "id": "71effc85-67b7-4505-87bb-b19b01d11c5f",
+      "data": [
+        {
+          "text": "tell me about organizers"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538848864,
+      "isAuto": false
+    },
+    {
+      "id": "35540ffa-6027-4c7d-b9f0-0b15d29211b5",
+      "data": [
+        {
+          "text": "Organizers"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538848864,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

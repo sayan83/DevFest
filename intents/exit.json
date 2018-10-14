@@ -1,0 +1,82 @@
+{
+  "id": "0525a884-ad4a-46b1-bf2c-ee3b9cdf222b",
+  "name": "exit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "bye bye",
+            "See you",
+            "Bye",
+            "Have a good day"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1539373730,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_CANCEL"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "17613005-f88c-42dc-bc65-76084b5d1a6c",
+      "data": [
+        {
+          "text": "bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1539373730,
+      "isAuto": false
+    },
+    {
+      "id": "9f941735-22fd-4511-8f1e-4ad6133a0b7a",
+      "data": [
+        {
+          "text": "cancel"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1539373730,
+      "isAuto": false
+    },
+    {
+      "id": "3be5e683-144b-40db-a2f3-142761db2eb5",
+      "data": [
+        {
+          "text": "exit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1539373730,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}
